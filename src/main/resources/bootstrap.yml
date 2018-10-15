@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: todoService
+  profiles:
+    active : dev
+  cloud:
+    config:
+      label: master
+      uri: http://config-service:8888
